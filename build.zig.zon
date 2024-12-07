@@ -1,0 +1,18 @@
+.{
+    .name = "hiredict",
+    .version = "1.3.1",
+    .dependencies = .{
+        .hiredict = .{
+            .url = "git+https://codeberg.org/redict/hiredict?ref=1.3.1#57291e2244ebb6c32784cd81244ba88d0e53b8b9",
+            .hash = "12203acb317cc71b123f71ce7470cadf92cf9c38fec9ef3bf8cdaf01ecb8785ff352",
+        },
+    },
+    .minimum_zig_version = "0.12.0",
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "LICENSE",
+        "LICENSE-HIREDICT",
+        "README.md",
+    },
+}

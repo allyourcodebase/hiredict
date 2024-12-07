@@ -1,0 +1,16 @@
+.{
+    .name = "c_hiredict",
+    .version = "1.0.0",
+    .minimum_zig_version = "0.12.0",
+    .dependencies = .{
+        .hiredict = .{
+            .url = "..",
+            .hash = "1220df2ab4be8412c1b8c5909aa6c1a55ea82a6742ee1b2ef97316aee39ab18de549",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
